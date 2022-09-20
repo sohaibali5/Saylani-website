@@ -183,12 +183,24 @@ button#exploreMore{
     }   
 } */
 /* Third page started which have three donations pictures */
+
+#threepicturesatthirdpage{
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/* margin-left: 547px; */
+
 #threepicturesatthirdpage img{
+    
+
     height: 300px;
-    width: 418px;
+    width: 417px;
     filter:brightness(40%);
     border-radius: 10px;
-    
 }
 
 /* Text written on that pictures */
@@ -206,3 +218,12 @@ button#exploreMore{
     border-radius: 10px;
 
 }
+
+/* 
+@media only screen and (max-width:600px){
+    #threepicturesatthirdpage{                
+        display: flex;
+        flex-direction: column;
+    }
+    
+} */
